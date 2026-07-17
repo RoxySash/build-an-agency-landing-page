@@ -89,7 +89,19 @@ p, h1, h2, h3, h4, h5, h6 {
 ul {
     display: none;
 }
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer-img svg path{
+   fill: var(--green-800);
+}
+.gap {
+    gap: 1rem;
+}
 @media (min-width: 30rem) {
     body {
    
@@ -222,5 +234,12 @@ position: relative;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+    }
+
+
+    footer {
+        width: 100%;
+        background-color: var(--green-500);
+        height: 200px;
     }
 }
