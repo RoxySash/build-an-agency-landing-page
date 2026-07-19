@@ -127,8 +127,10 @@ ul {
   align-items: center;
   gap: 1.5rem;
 }
-.footer-img svg path {
-  fill: var(--green-800);
+.footer-img {
+  background-color: var(--green-800);
+    
+   
 }
 .gap {
   gap: 1rem;
@@ -195,6 +197,12 @@ ul li a.active {
   background-color: var(--yellow-500);
   color: var(--grey-950);
 }
+
+.footer-list-item {
+  color: var(--green-800);
+  font-family: var(--font-barlow);
+}
+
 
 footer {
   width: 100%;

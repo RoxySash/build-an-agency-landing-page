@@ -1,201 +1,210 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">  
-<title>Frontend Mentor | Sunnyside agency landing page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-  <script src="main.js" defer></script>
-</head>
-<body>
-  <main class="container">
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <nav class="navbar">
+          <img src="./images/logo.svg" />
+          <ul class="list-menu-desktop">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a class="active uppercase" href="#contact">Contact</a></li>
+          </ul>
+          <img
+            src="./images/icon-hamburger.svg"
+            class="hamburger-icon"
+            id="hamburgerBtn"
+          />
+        </nav>
+        <div class="mobile-menu" id="mobileMenu">
+          <ul class="list-menu-mobile">
+            <li class="list-item">
+              <a class="link-item" href="#about">About</a>
+            </li>
+            <li class="list-item"><a href="#services">Services</a></li>
+            <li class="list-item"><a href="#projects">Projects</a></li>
+            <li class="list-item">
+              <a class="active uppercase" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hero-text">
+          <h1>We are creatives</h1>
+        </div>
 
-  <header class="hero">
-    
-    <nav class="navbar">
-      <img 
-      src="./images/logo.svg"
-      >
-      <ul class="list-menu-desktop">
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a class="active uppercase" href="#contact">Contact</a></li>
-      </ul>
-    <img src="./images/icon-hamburger.svg"
-    class="hamburger-icon"
-    id="hamburgerBtn"
-    >
-    </nav>
-<div class="mobile-menu" id="mobileMenu">
-<ul class="list-menu-mobile">
-        <li class="list-item"><a class="link-item" href="#about">About</a></li>
-        <li class="list-item"><a href="#services">Services</a></li>
-        <li class="list-item"><a href="#projects">Projects</a></li>
-        <li class="list-item"><a class="active uppercase" href="#contact">Contact</a></li>
-      </ul>
-</div>
-    <div class="hero-text">
-      <h1>We are creatives</h1>
-     
-    </div>
-    
-     <img
-      src="./images/icon-arrow-down.svg"
-      height="70"
-      class="hero-arrow"
-      >
-  </header>
-<section class="section-one flexrow">
-  
-    <div class="brand-section">
-      <h2 class="headingtwo">Transform your brand</h2>
-      <p>
-        We are a full-service creative agency specializing in helping brands grow fast.
-        Engage your clients through compelling visuals that do most of the marketing for you.
-      </p>
-      <a>Learn more</a>
-    </div>
-    <img
-    src="./images/desktop/image-transform.jpg"
-    alt="yellow background white egg"
-    class="egg-img"
-    >
-</section>
-  
+        <img
+          src="./images/icon-arrow-down.svg"
+          height="70"
+          class="hero-arrow"
+        />
+      </header>
+      <section class="section-one flexrow">
+        <div class="brand-section">
+          <h2 class="headingtwo">Transform your brand</h2>
+          <p>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a>Learn more</a>
+        </div>
+        <img
+          src="./images/desktop/image-transform.jpg"
+          alt="yellow background white egg"
+          class="egg-img"
+        />
+      </section>
 
+      <section class="section-two flexrow">
+        <img
+          src="./images/desktop/image-stand-out.jpg"
+          alt="pink wine cup"
+          class="cup-img"
+        />
+        <div class="standout-section">
+          <h2 class="headingtwo">Stand out to the right audience</h2>
+          <p>
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a href="">Learn more</a>
+        </div>
+      </section>
+      <section class="section-three flexrow">
+        <div class="graphic-section">
+          <img src="./images/desktop/image-graphic-design.jpg" width="100%" />
+          <div class="text-block">
+            <h3>Graphic design</h3>
+            <p>
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+        </div>
+        <div class="photo-section">
+          <img src="./images/desktop/image-photography.jpg" width="100%" />
+          <div class="text-block">
+            <h3>Photography</h3>
+            <p>
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-four flexcol">
+        <h4 class="testimonial-heading uppercase">Client testimonials</h4>
+        <div class="testimonial-sec flexrow">
+          <div class="flexcol testimonial-box space">
+            <img
+              src="./images/image-emily.jpg"
+              width="50"
+              height="50"
+              class="profile-pics"
+            />
 
-  <section class="section-two flexrow">
-    <img 
-    src="./images/desktop/image-stand-out.jpg"
-    alt="pink wine cup"
-    class="cup-img"
-    >
-    <div class="standout-section">
-      <h2 class="headingtwo">Stand out to the right audience</h2>
-      <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-      <a href="">Learn more</a>
-    </div>
-
-  </section>
-<section class="section-three flexrow">
-  
-    <div class="graphic-section">
-      <img
-      src="./images/desktop/image-graphic-design.jpg"
-      width="100%"
-      >
-      <div class="text-block">
-        <h3>Graphic design</h3>
-        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-      </div>
-    </div>
-    <div class="photo-section">
-      <img 
-      src="./images/desktop/image-photography.jpg"
-      width="100%"
-      >
-      <div class="text-block">
-        <h3>Photography</h3>
-        <p>
-          Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-      </div>
+            <p class="testimonial-description">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <div>
+              <p class="name">Emily R.</p>
+              <p class="profession">Marketing Director</p>
             </div>
-      
-</section>
-<section class="section-four flexcol">
-  <h4 class="testimonial-heading uppercase">Client testimonials</h4>
-  <div class="testimonial-sec flexrow">
-    <div class="flexcol testimonial-box space">
-      <img src="./images/image-emily.jpg"
-      width="50"
-      height="50"
-      class="profile-pics"
-      >
-    
-    
-        <p class="testimonial-description">
-          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-         
-        </p>
-         <div>
-           <p class="name">Emily R.</p>
-                   <p class="profession">Marketing Director</p>
-         </div>
-    </div>
-    <div class="flexcol testimonial-box space">
-      <img src="./images/image-thomas.jpg"
-      width="50"
-      height="50"
-      class="profile-pics"
-      >
-        <p class="testimonial-description">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-        <div>
-          <p class="name">Thomas S.</p>
-          <p class="profession">Chief Operating Officer</p>
+          </div>
+          <div class="flexcol testimonial-box space">
+            <img
+              src="./images/image-thomas.jpg"
+              width="50"
+              height="50"
+              class="profile-pics"
+            />
+            <p class="testimonial-description">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <div>
+              <p class="name">Thomas S.</p>
+              <p class="profession">Chief Operating Officer</p>
+            </div>
+          </div>
+          <div class="flexcol testimonial-box">
+            <img
+              src="./images/image-jennie.jpg"
+              width="50"
+              height="50"
+              class="profile-pics"
+            />
+            <p class="testimonial-description">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <div>
+              <p class="name">Jennie F.</p>
+              <p class="profession">Business Owner</p>
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="flexcol testimonial-box">
-      <img src="./images/image-jennie.jpg"
-      width="50"
-      height="50"
-      class="profile-pics"
-      >
-        <p class="testimonial-description">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-        <div>
-          <p class="name">Jennie F.</p>
-          <p class="profession">Business Owner</p>
+      </section>
+      <section class="flexrow">
+        <img
+          src="./images/desktop/image-gallery-milkbottles.jpg"
+          width="25%"
+          height="300"
+        />
+        <img
+          src="./images/desktop/image-gallery-orange.jpg"
+          width="25%"
+          height="300"
+        />
+        <img
+          src="./images/desktop/image-gallery-cone.jpg"
+          width="25%"
+          height="300"
+        />
+        <img
+          src="./images/desktop/image-gallery-sugarcubes.jpg"
+          width="25%"
+          height="300"
+        />
+      </section>
+
+      <footer class="flexcol">
+        <img class="footer-img"src="./images/logo.svg" />
+
+        <ul><li><a href="" class="footer-list-item">About</a></li> <li><a href="" class="footer-list-item">Services</a></li> <li><a href="" class="footer-list-item">Projects</a></li> <li><a href="" class="footer-list-item">Contact</a></li></ul>
+        <div class="flexrow gap">
+          <img src="./images/icon-facebook.svg" />
+          <img src="./images/icon-instagram.svg" />
+          <img src="./images/icon-twitter.svg" />
+          <img src="./images/icon-pinterest.svg" />
         </div>
-    </div>
-  </div>
-</section>
-<section class="flexrow">
-  <img src="./images/desktop/image-gallery-milkbottles.jpg"
-  width="25%"
-  height="300"
-  >
-    <img src="./images/desktop/image-gallery-orange.jpg"
-    width="25%"
-  height="300"
-    >
-     <img src="./images/desktop/image-gallery-cone.jpg"
-     width="25%"
-  height="300"
-     >
-     <img
-  src="./images/desktop/image-gallery-sugarcubes.jpg"
-  width="25%"
-  height="300"
-  >
-  
-</section>
-
-  <footer class="flexcol">
-    <img class="footer-img"
-    src="./images/logo.svg"
-    >
-
-    About
-    Services
-    Projects
-    Contact
-    <div class="flexrow gap">
-      <img
-      src="./images/icon-facebook.svg"
-      >
-      <img src="./images/icon-instagram.svg">
-      <img src="./images/icon-twitter.svg">
-      <img src="./images/icon-pinterest.svg">
-    </div>
-
-  </footer>
-
- </main>
-</body>
+      </footer>
+    </main>
+  </body>
 </html>
