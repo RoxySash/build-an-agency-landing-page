@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot%202026-07-19%20124843.png)
-![](./images/Screenshot%202026-07-19%20124729.png)
+![Menu Nav bar](./images/Screenshot%202026-07-19%20124843.png)
+![Mobile pop up menu](./images/Screenshot%202026-07-19%20124729.png)
 
 
 ### Links
