@@ -1,6 +1,6 @@
 :root {
   --font-size-body: 1.125rem;
-  --font-large: 1.3rem;
+  --font-large: 1.7rem;
   --font-med: 1rem;
   --font-small: 0.766rem;
   --font-fraunce: "Fraunces", serif;
@@ -102,13 +102,21 @@ h6 {
 }
 
 .headingtwo {
-  font-size: var(--font-large);
+  font-size: 30px;
+  color: var(--grey-950);
+  font-weight: 700;
+  font-family: var(--font-fraunce);
 }
 .standout-section {
-  padding: 2.5rem;
+  padding: 4rem;
 }
 .brand-section {
-  padding: 2.5rem;
+  padding: 4rem;
+}
+.description {
+  color: var(--grey-600);
+  font-family: var(--font-barlow);
+  padding-bottom: 1rem;
 }
 ul {
   display: none;
@@ -145,10 +153,25 @@ ul {
 }
 
 .testimonial-description {
-  font-size: var(--font-small);
+  font-size: var(--font-med);
   color: var(--grey-600);
   font-family: var(--font-barlow);
   font-weight: 600;
+}
+
+.learn-link-one {
+  color: var(--grey-950);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-fraunce);
+  text-decoration: underline solid 3px var(--yellow-500);
+}
+.learn-link-two {
+  color: var(--grey-950);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-fraunce);
+  text-decoration: underline solid 3px var(--red-400);
 }
 .name {
   padding-bottom: 0;
@@ -199,7 +222,6 @@ ul li a.active {
   font-family: var(--font-barlow);
 }
 
-
 footer {
   width: 100%;
   background-color: var(--green-500);
@@ -240,12 +262,14 @@ footer {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .section-two {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .section-three {
   display: flex;
@@ -281,6 +305,7 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 80%;
 }
 
 .uppercase {
@@ -327,7 +352,32 @@ footer {
   font-family: var(--font-barlow);
   font-weight: 900;
   font-size: 27px;
-  color: var(--green-800)
+  color: var(--green-800);
+}
+
+.photo-text {
+  color: var(--blue-800);
+  font-size: 25px;
+  font-family: var(--font-fraunce);
+  font-weight: 700;
+}
+
+.graphic-text {
+  color: var(--green-800);
+  font-size: 25px;
+  font-family: var(--font-fraunce);
+  font-weight: 700;
+}
+
+.graphic-text-description {
+  color: var(--green-800);
+  font-family: var(--font-barlow);
+  font-weight: 500;
+}
+.photo-text-description {
+  color: var(--blue-800);
+  font-family: var(--font-barlow);
+  font-weight: 500;
 }
 @media (min-width: 33.3rem) {
   body {
@@ -434,6 +484,7 @@ footer {
     font-family: var(--font-main);
     font-size: var(--font-large);
     color: var(--grey-950);
+    padding-bottom: 1rem;
   }
 
   .egg-img {
@@ -467,5 +518,12 @@ footer {
   .section-four {
     text-align: center;
     padding: 4rem;
+  }
+
+  .section-one {
+    text-align: left;
+  }
+  .section-two {
+    text-align: left;
   }
 }
