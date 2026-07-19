@@ -127,11 +127,7 @@ ul {
   align-items: center;
   gap: 1.5rem;
 }
-.footer-img {
-  background-color: var(--green-800);
-    
-   
-}
+
 .gap {
   gap: 1rem;
 }
@@ -327,6 +323,12 @@ footer {
   align-items: center;
 }
 
+.test-logo {
+  font-family: var(--font-barlow);
+  font-weight: 900;
+  font-size: 27px;
+  color: var(--green-800)
+}
 @media (min-width: 33.3rem) {
   body {
     display: flex;
